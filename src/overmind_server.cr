@@ -1,6 +1,6 @@
 # TODO: Write documentation for `OvermindServer`
 module OvermindServer
-  VERSION = "0.1.0"
+  VERSION = {{ `shards version`.chomp.stringify }}
 
   # TODO: Put your code here
 end

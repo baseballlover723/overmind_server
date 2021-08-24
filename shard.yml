@@ -5,8 +5,8 @@ authors:
   - Philip Ross <dev@baseballlover723.com>
 
 targets:
-  overmind_server:
-    main: src/overmind_server.cr
+  server:
+    main: src/server.cr
 
 crystal: 1.1.1
 
